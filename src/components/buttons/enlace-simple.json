@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_buttons_enlace_simples",
+  "info": {
+    "displayName": "MenuItem",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "badge": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_cards_indicador_cards",
+  "info": {
+    "displayName": "IndicadorCard",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "prefix": {
+      "type": "string",
+      "maxLength": 5
+    },
+    "value": {
+      "type": "decimal",
+      "required": true
+    },
+    "suffix": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "description": {
+      "type": "string"
+    },
+    "footer": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

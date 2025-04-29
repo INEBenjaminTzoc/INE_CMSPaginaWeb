@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cards_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "imagenes": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

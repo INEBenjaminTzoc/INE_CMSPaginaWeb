@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_branding_logos",
+  "info": {
+    "displayName": "IconoHeader",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icono_institucion": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "nombre_institucion": {
+      "type": "string",
+      "maxLength": 80,
+      "minLength": 3,
+      "required": true
+    },
+    "url_opcional": {
+      "type": "string"
+    }
+  }
+}

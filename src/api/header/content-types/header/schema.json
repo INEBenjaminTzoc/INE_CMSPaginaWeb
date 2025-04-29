@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu": {
+      "type": "dynamiczone",
+      "components": [
+        "buttons.enlace-simple",
+        "buttons.dropdown-menu"
+      ],
+      "pluginOptions": {}
+    },
+    "Logotipo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "branding.logo",
+      "required": true
+    }
+  }
+}

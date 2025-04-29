@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Carousel": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "CardsIndicadores": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.indicador-card"
+    },
+    "TituloGraficasSection": {
+      "type": "string"
+    },
+    "DescripcionGraficasSection": {
+      "type": "text"
+    }
+  }
+}

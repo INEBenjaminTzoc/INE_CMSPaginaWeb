@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_buttons_dropdown_menus",
+  "info": {
+    "displayName": "MenuDropdown",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.enlace-simple"
+    }
+  }
+}
